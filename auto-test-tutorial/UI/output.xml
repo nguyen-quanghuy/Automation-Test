@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.10 on linux)" generated="20230624 15:34:43.277" rpa="false" schemaversion="3">
+<suite id="s1" name="Session 3" source="/home/huynguyen15/Desktop/Automation-Test/auto-test-tutorial/UI/session_3.robot">
+<kw name="Log Suite Setup" library="LLK" type="SETUP">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Suite Setup only run once</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.442" endtime="20230624 15:34:43.442"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.441" endtime="20230624 15:34:43.442"/>
+</kw>
+<test id="s1-t1" name="DEMO_SUITE_01" line="16">
+<kw name="Log Test Setup" library="LLK" type="SETUP">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Hello</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.444" endtime="20230624 15:34:43.444"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.444" endtime="20230624 15:34:43.444"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>DEMO_SUITE_01</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.445" endtime="20230624 15:34:43.445"/>
+</kw>
+<kw name="Log Test Teardown" library="LLK" type="TEARDOWN">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Bye</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.446" endtime="20230624 15:34:43.446"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.445" endtime="20230624 15:34:43.446"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.443" endtime="20230624 15:34:43.446"/>
+</test>
+<test id="s1-t2" name="DEMO_SUITE_02" line="19">
+<kw name="Log Test Setup" library="LLK" type="SETUP">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Hello</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.448" endtime="20230624 15:34:43.448"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.447" endtime="20230624 15:34:43.448"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>DEMO_SUITE_02</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.449" endtime="20230624 15:34:43.449"/>
+</kw>
+<kw name="Log Test Teardown" library="LLK" type="TEARDOWN">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Bye</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.450" endtime="20230624 15:34:43.450"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.449" endtime="20230624 15:34:43.450"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.447" endtime="20230624 15:34:43.451"/>
+</test>
+<test id="s1-t3" name="DEMO_SUITE_03" line="22">
+<kw name="Log Test Setup" library="LLK" type="SETUP">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Hello</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.453" endtime="20230624 15:34:43.453"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.452" endtime="20230624 15:34:43.453"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>DEMO_SUITE_03</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.453" endtime="20230624 15:34:43.454"/>
+</kw>
+<kw name="Log Test Teardown" library="LLK" type="TEARDOWN">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Bye</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.455" endtime="20230624 15:34:43.455"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.454" endtime="20230624 15:34:43.455"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.451" endtime="20230624 15:34:43.455"/>
+</test>
+<test id="s1-t4" name="DEMO_SUITE_04" line="25">
+<kw name="Log Test Setup" library="LLK" type="SETUP">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Hello</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.458" endtime="20230624 15:34:43.458"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.457" endtime="20230624 15:34:43.458"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>DEMO_SUITE_04</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.459" endtime="20230624 15:34:43.459"/>
+</kw>
+<kw name="Log Test Teardown" library="LLK" type="TEARDOWN">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Bye</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.460" endtime="20230624 15:34:43.460"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.460" endtime="20230624 15:34:43.461"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.456" endtime="20230624 15:34:43.461"/>
+</test>
+<test id="s1-t5" name="DEMO_SUITE_05" line="28">
+<kw name="Log Test Setup" library="LLK" type="SETUP">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Hello</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.464" endtime="20230624 15:34:43.464"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.463" endtime="20230624 15:34:43.464"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>DEMO_SUITE_05</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.465" endtime="20230624 15:34:43.465"/>
+</kw>
+<kw name="Log Test Teardown" library="LLK" type="TEARDOWN">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Bye</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.466" endtime="20230624 15:34:43.466"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.466" endtime="20230624 15:34:43.467"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.462" endtime="20230624 15:34:43.467"/>
+</test>
+<kw name="Log Suite Teardown" library="LLK" type="TEARDOWN">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Suite Teardown only run once</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230624 15:34:43.469" endtime="20230624 15:34:43.469"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.468" endtime="20230624 15:34:43.469"/>
+</kw>
+<status status="PASS" starttime="20230624 15:34:43.278" endtime="20230624 15:34:43.469"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="Session 3">Session 3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
