@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.10 on linux)" generated="20230624 16:35:47.078" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="/home/huynguyen15/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<for flavor="IN">
+<var>${element}</var>
+<value>@{Robot}</value>
+<msg timestamp="20230624 16:35:47.674" level="FAIL">Variable '@{Robot}' not found.</msg>
+<status status="FAIL" starttime="20230624 16:35:47.673" endtime="20230624 16:35:47.674"/>
+</for>
+<status status="PASS" starttime="20230624 16:35:47.104" endtime="20230624 16:35:50.667"/>
+</kw>
+<status status="PASS" starttime="20230624 16:35:47.103" endtime="20230624 16:35:50.668"/>
+</test>
+<status status="PASS" starttime="20230624 16:35:47.079" endtime="20230624 16:35:50.670"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

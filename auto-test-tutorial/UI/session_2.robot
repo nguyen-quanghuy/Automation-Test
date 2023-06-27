@@ -50,3 +50,4 @@ FOR-IN-ZIP
     FOR    ${number}    ${name}    IN ZIP    ${NUMBERS}    ${NAMES}
         Log Many    ${number}    ${name}
     END
+

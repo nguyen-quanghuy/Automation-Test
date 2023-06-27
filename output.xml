@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.10 on linux)" generated="20230627 20:32:16.357" rpa="false" schemaversion="3">
+<suite id="s1" name="Session 5" source="/home/huynguyen15/Desktop/Automation-Test/auto-test-tutorial/UI/session_5.robot">
+<test id="s1-t1" name="Kiem Tra Man Hinh" line="7">
+<kw name="Mo_Trang_Web" library="LLK">
+<arg>https://soha.vn/</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230627 20:32:16.577" level="INFO">Opening browser 'chrome' to base url 'https://soha.vn/'.</msg>
+<status status="PASS" starttime="20230627 20:32:16.577" endtime="20230627 20:32:26.395"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230627 20:32:26.397" endtime="20230627 20:32:27.712"/>
+</kw>
+<status status="PASS" starttime="20230627 20:32:16.576" endtime="20230627 20:32:27.712"/>
+</kw>
+<kw name="Man Hinh Thoi Su" library="LLK">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//div[@class="inner clearfix"]/a[2]</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230627 20:32:27.715" endtime="20230627 20:32:27.780"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//div[@class="inner clearfix"]/a[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230627 20:32:27.781" level="INFO">Clicking element '//div[@class="inner clearfix"]/a[2]'.</msg>
+<status status="PASS" starttime="20230627 20:32:27.780" endtime="20230627 20:32:29.101"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//div[@class="shnews_total"]/h3/a[@data-id="20230627181141456"]</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230627 20:32:29.102" endtime="20230627 20:32:29.577"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//div[@class="shnews_total"]/h3/a[@data-id="20230627181141456"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230627 20:32:29.578" level="INFO">Clicking element '//div[@class="shnews_total"]/h3/a[@data-id="20230627181141456"]'.</msg>
+<status status="PASS" starttime="20230627 20:32:29.577" endtime="20230627 20:32:33.804"/>
+</kw>
+<status status="PASS" starttime="20230627 20:32:27.713" endtime="20230627 20:32:33.805"/>
+</kw>
+<kw name="Kiem Tra Text" library="verify4">
+<arg>kiểu mẫu</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//div[@class="news-detail-content"]/div[5]//p</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230627 20:32:33.807" endtime="20230627 20:32:33.844"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>//div[@class="news-detail-content"]/div[5]//p</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20230627 20:32:33.845" endtime="20230627 20:32:34.158"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${actual}</var>
+<arg>//div[@class="news-detail-content"]/div[5]//p</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230627 20:32:34.231" level="INFO">${actual} = Cũng trong thời gian này, Bàn Cờ phát triển như một khu phố lớn "kiểu mẫu" với nhiều tiện nghi. Trong đó, chợ Bàn Cờ là một địa danh được nhiều người biết đến. Đây không phải chợ nhà lồng giống chợ Tâ...</msg>
+<status status="PASS" starttime="20230627 20:32:34.160" endtime="20230627 20:32:34.232"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${actual}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230627 20:32:34.232" endtime="20230627 20:32:34.233"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${expect}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230627 20:32:34.234" endtime="20230627 20:32:34.235"/>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<arg>${actual}</arg>
+<arg>${expect}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" starttime="20230627 20:32:34.235" endtime="20230627 20:32:34.236"/>
+</kw>
+<status status="PASS" starttime="20230627 20:32:33.806" endtime="20230627 20:32:34.237"/>
+</kw>
+<status status="PASS" starttime="20230627 20:32:16.574" endtime="20230627 20:32:34.238"/>
+</test>
+<status status="PASS" starttime="20230627 20:32:16.362" endtime="20230627 20:32:34.240"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Session 5">Session 5</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
